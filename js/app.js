@@ -1,9 +1,10 @@
 // 10 restaurantes 
-// script para el splash
-$( document ).ready(function() {
-	$(function() {
+$(document).ready(function() {
+// efecto del splash
+  $(function() {
 	  setTimeout(function() {
 	    $('#splash').fadeOut(500); 
 	  }, 5000);
-	});
-})
+	 });
+// demas funcionalidad
+});
