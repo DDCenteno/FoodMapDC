@@ -1,0 +1,14 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+#splash {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	color: rgb(247,182,23);
+	z-index: 1;
+	padding-top:50%;
+}
