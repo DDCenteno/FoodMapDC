@@ -4,7 +4,7 @@ $(document).ready(function() {
   $(function() {
 	  setTimeout(function() {
 	    $('#splash').fadeOut(500); 
-	  }, 5000);
+	  }, 1000);
 	 });
 // demas funcionalidad
 });

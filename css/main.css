@@ -1,5 +1,6 @@
-html {
-	font-family: 'Roboto', sans-serif;
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #2b2b2b;
 }
 #splash {
 	position: fixed;
@@ -7,8 +8,36 @@ html {
 	left: 0px;
 	height: 100%;
 	width: 100%;
-	background-color: black;
+	background-color: #2b2b2b;
 	color: rgb(247,182,23);
 	z-index: 1;
 	padding-top:50%;
+	font-weight: normal;
+}
+.principalSection {
+	color: rgb(247,182,23);
+	font-weight: normal;
+}
+.principalSection .line {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+}
+.line img {
+	width: 100%;
+}
+
+.secondSection iframe {
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+.selectSection {
+	color: rgb(247,182,23);
+}
+/* modificando bootstrap */
+.row {
+	margin: 0;
+	border:0;
 }

@@ -6,8 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FoodMap</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -18,8 +19,31 @@
 			<center>FOODMAP</center>
 		</h1>
 	</div>
-	<section class="principalSection">
-		
+	<!-- section cabecera -->
+	<section class="principalSection row">
+		<!-- tablets y mobile -->
+		<header class="col-xs-12 col-sm-12">
+			<h1 class="text-center">FoodMap</h1>
+			<!-- separador -->
+			<div class="line">
+				<img src="assets/images/line.svg" alt="Linea divisoria">
+			</div>
+		</header>
+	</section>
+	<!-- Section cuerpo -->
+	<section class="secondSection row">
+		<div class="col-xs-12 col-sm-12">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7801.5703063426245!2d-77.02106574999999!3d-12.1268475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurants+near+me!5e0!3m2!1ses-419!2spe!4v1514310400212" allowfullscreen></iframe>
+		</div>
+	</section>
+	<section class="selectSection row">
+		<div class="col-xs-12 col-sm-12">
+			<h2 class="text-center">Comida cerca de ti</h2>
+			<div class="input-group">
+		  		<input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+		  		<span class="input-group-addon" id="basic-addon2"><i class="fa fa-search" aria-hidden="true"></i></span>
+			</div>
+		</div>
 	</section>
 	<!-- declaraciónes -->
 	<script type="text/javascript" src="vendors/jQuery/jquery-3.2.1.js"></script>
