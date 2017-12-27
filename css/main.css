@@ -14,6 +14,7 @@ body {
 	padding-top:50%;
 	font-weight: normal;
 }
+
 .principalSection {
 	color: rgb(247,182,23);
 	font-weight: normal;
@@ -36,8 +37,46 @@ body {
 .selectSection {
 	color: rgb(247,182,23);
 }
+/* estilos del table */
+.content-search {
+    width: 100%;
+    height: 51vh;
+    background-color: darkgray;
+    display: none;
+}
+.content-table {
+    width: 98%;
+    max-height: 150px;
+    height: auto;
+    background-color: darkgray;
+    margin-left: 10px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    /*display: none;*/
+}
+.content-table table {
+    width: 100%;
+}
+tbody tr td a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+tbody tr td a:hover {
+    background-color: darkslategray;
+    color: white;
+}
+/* escondiendo algunas cosas de la libreria */
+.dataTables_length, .dataTables_filter, .dataTables_info, .dataTables_paginate  { 
+    display: none;
+}
 /* modificando bootstrap */
 .row {
 	margin: 0;
 	border:0;
+}
+/* el form prevalecia sobre el splash por un z-index = 2*/
+.input-group .form-control {
+	z-index: 0;
 }
