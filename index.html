@@ -50,24 +50,102 @@
 							<tr><td></td></tr>
 						</thead>
 						<tbody>
+                            <tr>
+                                <td><a href="#" class="category-item" category="all">Todo</a></td>
+                            </tr>
 							<tr>
-								<td><a href="#">Criolla</a></td>
+								<td><a href="#" class="category-item" category="criollo">Criolla</a></td>
 							</tr>
 							<tr>
-								<td><a href="#">Marinos</a></td>
+								<td><a href="#" class="category-item" category="marinos">Marinos</a></td>
 							</tr>
 							<tr>
-								<td><a href="#">Oriental</a></td>
+								<td><a href="#" class="category-item" category="oriental">Oriental</a></td>
+							</tr>
+                            <tr>
+								<td><a href="#" class="category-item" category="fastFood">Fast Food</a></td>
 							</tr>
 							<tr>
-								<td><a href="#">Postres y dulces</a></td>
+								<td><a href="#" class="category-item" category="postres">Postres y dulces</a></td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 			</div>
+            <div class="images-filter">
+            	<!-- comida criolla -->
+                <div class="product-item" category="criollo">
+                    <img src="assets/images/huancaina.jpg" data-toggle="modal" data-target="#myModal">
+                </div>
+                <!-- modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                	<div class="modal-dialog">
+                		<div class="modal-content">
+                			<div class="modal-header">
+                				<button type="button" class="close" data-dimiss="modal">&times;</button>
+                				<h4 class="modal-title">Modal title</h4>
+                			</div>
+                			<div class="modal-body">
+                				<p> modal cuerpo</p>
+                			</div>
+                			<div class="modal-footer">
+                				<button type="button" class="btn btn-default" data-dimiss="modal">Close</button>
+                			</div>
+                		</div>
+                	</div>
+                </div>
+                <!-- termina modal -->
+                <div class="product-item" category="criollo">
+                	<img src="assets/images/lomoSaltado.jpg">
+                </div>
+                <div class="product-item" category="criollo">
+                	<img src="assets/images/tamal.jpg">
+                </div>
+                <!-- pescados -->
+                <div class="product-item" category="marinos">
+                	<img src="assets/images/ceviche.jpeg">
+                </div>
+                <div class="product-item" category="marinos">
+					<img src="assets/images/mariscos.jpg">
+                </div>
+                <div class="product-item" category="marinos">
+                	<img src="assets/images/pescado.jpg" alt="">
+                </div>
+                <!-- comida oriental -->
+                <div class="product-item" category="oriental">
+                	<img src="assets/images/orientalfood1.jpg">
+                </div>
+                <div class="product-item" category="oriental">
+                	<img src="assets/images/sushi.jpg">
+                </div>
+                <!-- comida rapida -->
+                <div class="product-item" category="fastFood">
+                	<img src="assets/images/macdonald.jpg">
+                </div>
+                <div class="product-item" category="fastFood">
+                	<img src="assets/images/pizzaPapaJohn.jpg">
+                </div>
+                <div class="product-item" category="fastFood">
+                	<img src="assets/images/popeyes.jpg">
+                </div>
+                <!-- postres peruanos -->
+                <div class="product-item" category="postres">
+                	<img src="assets/images/arrozconLeche.jpeg">
+                </div>
+                <div class="product-item" category="postres">
+                	<img src="assets/images/mazamorra.png">
+                </div>
+                <div class="product-item" category="postres">
+                	<img src="assets/images/picarones.jpeg">
+                </div>
+                <div class="product-item" category="postres">
+                	<img src="assets/images/suspiro.jpg">
+                </div>
+                <!-- https://www.youtube.com/watch?v=UH7Xtn4J5ZM -->
+            </div>
 		</div>
 	</section>
+    
 	<!-- declaraciónes -->
 	<script type="text/javascript" src="vendors/jQuery/jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="vendors/jQuery/jquery.dataTables.min.js"></script>
