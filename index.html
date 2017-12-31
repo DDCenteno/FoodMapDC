@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FoodMap</title>
-	<link rel="stylesheet" type="text/css" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -19,6 +19,7 @@
 			<center>FOODMAP</center>
 		</h1>
 	</div>
+<div class="container">
 	<!-- section cabecera -->
 	<section class="principalSection row">
 		<!-- tablets y mobile -->
@@ -74,8 +75,8 @@
 			</div>
             <div class="images-filter">
             	<!-- comida criolla -->
-                <div class="product-item" category="criollo">
-                    <img src="assets/images/huancaina.jpg" data-toggle="modal" data-target="#myModal">
+                <div class="product-item" category="criollo" data-toggle="modal" data-target="#myModal">
+                    <img src="assets/images/huancaina.jpg">
                 </div>
                 <!-- modal -->
                 <div id="myModal" class="modal fade" role="dialog">
@@ -141,15 +142,14 @@
                 <div class="product-item" category="postres">
                 	<img src="assets/images/suspiro.jpg">
                 </div>
-                <!-- https://www.youtube.com/watch?v=UH7Xtn4J5ZM -->
             </div>
 		</div>
 	</section>
-    
+</div>
 	<!-- declaraciónes -->
 	<script type="text/javascript" src="vendors/jQuery/jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="vendors/jQuery/jquery.dataTables.min.js"></script>
-	<script type="text/javascript" src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
 
