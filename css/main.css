@@ -95,3 +95,7 @@ tbody tr td a:hover {
 .input-group .form-control {
 	z-index: 0;
 }
+.imgRestaurant {
+	width: 100%;
+	height: auto;
+}

@@ -75,82 +75,182 @@
 			</div>
             <div class="images-filter">
             	<!-- comida criolla -->
-                <div class="product-item" category="criollo" data-toggle="modal" data-target="#myModal">
+                <div class="product-item" id="chooserest" category="criollo" data-toggle="modal" data-target="#myModal">
                     <img src="assets/images/huancaina.jpg">
                 </div>
-                <!-- modal -->
-                <div id="myModal" class="modal fade" role="dialog">
-                	<div class="modal-dialog">
-                		<div class="modal-content">
-                			<div class="modal-header">
-                				<button type="button" class="close" data-dimiss="modal">&times;</button>
-                				<h4 class="modal-title">Modal title</h4>
-                			</div>
-                			<div class="modal-body">
-                				<p> modal cuerpo</p>
-                			</div>
-                			<div class="modal-footer">
-                				<button type="button" class="btn btn-default" data-dimiss="modal">Close</button>
-                			</div>
-                		</div>
-                	</div>
-                </div>
-                <!-- termina modal -->
-                <div class="product-item" category="criollo">
+                <div class="product-item" category="criollo" data-toggle="modal" data-target="#myModal">
                 	<img src="assets/images/lomoSaltado.jpg">
                 </div>
-                <div class="product-item" category="criollo">
+                <div class="product-item" category="criollo" data-toggle="modal" data-target="#myModal">
                 	<img src="assets/images/tamal.jpg">
                 </div>
                 <!-- pescados -->
-                <div class="product-item" category="marinos">
+                <div class="product-item" category="marinos" data-toggle="modal" data-target="#myModal1">
                 	<img src="assets/images/ceviche.jpeg">
                 </div>
-                <div class="product-item" category="marinos">
+                <div class="product-item" category="marinos" data-toggle="modal" data-target="#myModal1">
 					<img src="assets/images/mariscos.jpg">
                 </div>
-                <div class="product-item" category="marinos">
+                <div class="product-item" category="marinos" data-toggle="modal" data-target="#myModal1">
                 	<img src="assets/images/pescado.jpg" alt="">
                 </div>
                 <!-- comida oriental -->
-                <div class="product-item" category="oriental">
+                <div class="product-item" category="oriental" data-toggle="modal" data-target="#myModal2">
                 	<img src="assets/images/orientalfood1.jpg">
                 </div>
-                <div class="product-item" category="oriental">
+                <div class="product-item" category="oriental" data-toggle="modal" data-target="#myModal2">
                 	<img src="assets/images/sushi.jpg">
                 </div>
                 <!-- comida rapida -->
-                <div class="product-item" category="fastFood">
+                <div class="product-item" category="fastFood" data-toggle="modal" data-target="#myModal3">
                 	<img src="assets/images/macdonald.jpg">
                 </div>
-                <div class="product-item" category="fastFood">
+                <div class="product-item" category="fastFood"  data-toggle="modal" data-target="#myModal3">
                 	<img src="assets/images/pizzaPapaJohn.jpg">
                 </div>
-                <div class="product-item" category="fastFood">
+                <div class="product-item" category="fastFood"  data-toggle="modal" data-target="#myModal3">
                 	<img src="assets/images/popeyes.jpg">
                 </div>
                 <!-- postres peruanos -->
-                <div class="product-item" category="postres">
+                <div class="product-item" category="postres" data-toggle="modal" data-target="#myModal4">
                 	<img src="assets/images/arrozconLeche.jpeg">
                 </div>
-                <div class="product-item" category="postres">
+                <div class="product-item" category="postres" data-toggle="modal" data-target="#myModal4">
                 	<img src="assets/images/mazamorra.png">
                 </div>
-                <div class="product-item" category="postres">
+                <div class="product-item" category="postres" data-toggle="modal" data-target="#myModal4">
                 	<img src="assets/images/picarones.jpeg">
                 </div>
-                <div class="product-item" category="postres">
+                <div class="product-item" category="postres" data-toggle="modal" data-target="#myModal4">
                 	<img src="assets/images/suspiro.jpg">
                 </div>
             </div>
 		</div>
 	</section>
+	 <!-- modal -->
+	 <div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dimiss="modal">&times;</button>
+					<h4 class="modal-title">Criollito</h4>
+				</div>
+				<div class="modal-body">
+					<img class="imgRestaurant" src="assets/images/lomoSaltado.jpg" alt="Restaurant">
+					<div class="info">
+						<h3 class="subTT">Dirección</h3>
+						<p class="address">La Marina 115</p>
+						<h3 class="subTT">Distrito</h3>
+						<p class="place">San Miguel</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- termina modal -->
+	<div id="myModal1" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dimiss="modal">&times;</button>
+					<h4 class="modal-title">Marinos</h4>
+				</div>
+				<div class="modal-body">
+					<img class="imgRestaurant" src="assets/images/mariscos.jpg" alt="Restaurant">
+					<div class="info">
+						<h3 class="subTT">Dirección</h3>
+						<p class="address">La paz 125</p>
+						<h3 class="subTT">Distrito</h3>
+						<p class="place">Callao</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal -->
+	<div id="myModal2" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dimiss="modal">&times;</button>
+					<h4 class="modal-title">Oriental</h4>
+				</div>
+				<div class="modal-body">
+					<img class="imgRestaurant" src="assets/images/sushi.jpg" alt="Restaurant">
+					<div class="info">
+						<h3 class="subTT">Dirección</h3>
+						<p class="address">Calle capon 125</p>
+						<h3 class="subTT">Distrito</h3>
+						<p class="place">Lima</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal -->
+	<div id="myModal3" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dimiss="modal">&times;</button>
+					<h4 class="modal-title">Fast Food</h4>
+				</div>
+				<div class="modal-body">
+					<img class="imgRestaurant" src="assets/images/popeyes.jpg" alt="Restaurant">
+					<div class="info">
+						<h3 class="subTT">Dirección</h3>
+						<p class="address">Benavides 12</p>
+						<h3 class="subTT">Distrito</h3>
+						<p class="place">Miraflores</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal -->
+	<div id="myModal4" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dimiss="modal">&times;</button>
+					<h4 class="modal-title">Postres</h4>
+				</div>
+				<div class="modal-body">
+					<img class="imgRestaurant" src="assets/images/suspiro.jpg" alt="Restaurant">
+					<div class="info">
+						<h3 class="subTT">Dirección</h3>
+						<p class="address">La Marina 77</p>
+						<h3 class="subTT">Distrito</h3>
+						<p class="place">San Miguel</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal -->
 </div>
+
 	<!-- declaraciónes -->
 	<script type="text/javascript" src="vendors/jQuery/jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="vendors/jQuery/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/data.js"></script>
 </body>
 
 </html>
